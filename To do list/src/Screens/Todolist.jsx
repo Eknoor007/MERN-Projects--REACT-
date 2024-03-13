@@ -11,12 +11,12 @@ export default function Todolist({ todoitem }) {
 
 
                 {todoitem.length == 0 ? (
-                    <div class="alert alert-danger" role="alert">
+                    <div className="alert alert-danger" role="alert">
                         No Item Available in the List.
                     </div>
                 ) : (
 
-                    <table class="table">
+                    <table className="table">
                         <thead>
                             <tr className='table-dark'>
                                 <th scope="col">S.No.</th>
@@ -34,7 +34,7 @@ export default function Todolist({ todoitem }) {
                                             <td>{index + 1}</td>
                                             <td>{value.title}</td>
                                             <td>{value.desc}</td>
-                                            <td>{value.remarks}</td>
+                                            <td>{value.remark}</td>
                                         </tr>
                                     );
                                 })}

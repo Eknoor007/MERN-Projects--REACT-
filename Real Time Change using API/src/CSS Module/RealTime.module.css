@@ -1,0 +1,7 @@
+.button{
+    background-color: rgb(0, 0, 0);
+    border-radius: 15% ;
+    color: aliceblue;
+    font-weight: 1000;
+    padding: 10px;
+}
