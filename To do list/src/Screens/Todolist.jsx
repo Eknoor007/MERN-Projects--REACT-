@@ -16,7 +16,7 @@ export default function Todolist({ todoitem }) {
                     </div>
                 ) : (
 
-                    <table className="table">
+                    <table className="table table-hover">
                         <thead>
                             <tr className='table-dark'>
                                 <th scope="col">S.No.</th>
